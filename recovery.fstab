@@ -9,4 +9,4 @@
 /misc		emmc	/dev/block/bootdevice/by-name/misc
 
 # Removable storage
-/usb_otg	vfat	/devices/soc/6a00000.ssusb/6a00000.dwc3/xhci-hcd.0.auto/usb1*		flags=display="USB-OTG";storage;wipeingui;removable
+/usb_otg	vfat	/dev/block/sdg1				/dev/block/sdg			flags=display="USB-OTG";storage;wipeingui;removable
