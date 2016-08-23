@@ -79,6 +79,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_CRYPTO := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
 
 # Vendor Init
